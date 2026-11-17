@@ -1,0 +1,15 @@
+.venv/
+.python/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pt
+*.joblib
+data/
+feature_cache/
+results/
+results_*/
