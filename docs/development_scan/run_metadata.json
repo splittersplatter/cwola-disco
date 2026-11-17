@@ -1,0 +1,43 @@
+{
+  "chunk_size": 128,
+  "code_sha256": {
+    "phase1.py": "9ec6e2730c1051bb0b66c1db6c689f6beac6735c6907bbf41365b2a6e7258379",
+    "study.py": "c50d2dbb7c70a6dfc7325d19a05c3d88497ef8663165bfb8534d96959afaf4db"
+  },
+  "degree": 4,
+  "epochs": 15,
+  "events": 200000,
+  "fractions": [
+    0.0,
+    0.005,
+    0.01
+  ],
+  "lambdas": [
+    0.001,
+    0.003,
+    0.01,
+    0.03
+  ],
+  "packages": {
+    "energyflow": "1.4.0",
+    "fastjet": "3.5.2.0",
+    "h5py": "3.16.0",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.17.1",
+    "torch": "2.15.0+cpu"
+  },
+  "permutations": 199,
+  "protocol_version": 2,
+  "python_version": "3.11.5",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "source_kind": "precomputed_features",
+  "source_sha256": "b53f2b87b34382b4c29378e91c15a454c6a64e3518d4cc61e2999e0f4abe3bc6",
+  "torch_version": "2.15.0+cpu"
+}

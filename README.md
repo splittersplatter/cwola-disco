@@ -14,6 +14,9 @@ detector, discovery significance, or a fake bump. See
 [historical results](docs/EXPLORATORY_RESULTS.md) and
 [research protocol](docs/PROTOCOL.md).
 
+A subsequent smaller-penalty development scan and its limitations are recorded
+in [the exploratory scan report](docs/development_scan/README.md).
+
 ## Setup
 
 Use Python 3.11 and install the packages in `requirements.txt` in a virtual
@@ -33,7 +36,10 @@ python -m unittest test_study
 `requirements.lock.txt` records the full Linux/Python 3.11 CPU environment used
 for the checks; its CPU-specific PyTorch build requires the PyTorch CPU index.
 On Windows, activate with `.venv\Scripts\activate`. The locally supplied
-feature cache can be used directly:
+feature cache can be used directly. It is available from the supplied
+[Drive folder](https://drive.google.com/drive/folders/1vuRXfuFdzvNJjO2obKLu2DIOZmvqScVe);
+place the 200,000-row version at `data/exploratory_200k.npz`. Its SHA-256 is
+`b53f2b87b34382b4c29378e91c15a454c6a64e3518d4cc61e2999e0f4abe3bc6`.
 
 ```bash
 python study.py --feature-file data/exploratory_200k.npz --output results/development
